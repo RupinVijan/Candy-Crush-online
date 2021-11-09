@@ -1,0 +1,14 @@
+body{
+  max-width: 100%;
+}
+.game{
+  width: 640px;
+  height: 640px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gameimg{
+  height: 80px;
+  width: 80px;
+  
+}
