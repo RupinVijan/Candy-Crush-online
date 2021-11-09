@@ -154,6 +154,8 @@ function App() {
 
   return (
     <>
+        <h1>Rupin-Crush-Candy </h1>
+        <h1>Score :: {scoreDisplay}</h1><br/>
       <div className="game">
         {gameB.map((e, index) => {
           return (
@@ -172,8 +174,7 @@ function App() {
               className="gameimg"
             />
           );
-        })}
-        <h1>Score :: {scoreDisplay}</h1>
+        })}<h1>Made By Rupin Vijan</h1>
       </div>
     </>
   );

@@ -10,3 +10,29 @@
     width: 80px;
     
   }
+  h1{
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .game{
+      width: 400px;
+      height: 400px;
+    }
+    .gameimg{
+      height: 50px;
+      width: 50px;
+      
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .game{
+      width: 320px;
+      height: 320px;
+    }
+    .gameimg{
+      height: 40px;
+      width: 40px;
+      
+    }
+  }
