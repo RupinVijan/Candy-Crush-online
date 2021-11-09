@@ -147,8 +147,7 @@ function App() {
       rowFour();
       rowThree();
       movecandy();
-      setgameB([...gameB]);
-    }, 500);
+    }, 100);
     return () => clearInterval(timer);
   }, [columnThree, columnFour, rowThree, movecandy, rowFour, gameB]);
 
